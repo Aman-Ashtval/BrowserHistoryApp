@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+.item {
+  margin-top: 10px;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.p {
+  width: 150px;
+  font-weight: 500;
+}
+
+.item-status-container {
+  flex-grow: 1;
+  margin-left: 10px;
+  display: flex;
+}
+
+.item-logo-container {
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.item-logo-image {
+  width: 45px;
+  height: 45px;
+  margin: 0px 16px;
+}
+
+.item-title {
+  color: #475569;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.spn {
+  color: #64748b;
+}
+
+.delete-btn {
+  background-color: transparent;
+  border: none;
+  margin: 0px 10px;
+}
+
+
